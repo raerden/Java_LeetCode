@@ -28,33 +28,35 @@ Output: [0,1]
 
 public class Main {
     public static void main(String[] args) {
-        Solution2 solution = new Solution2();
-        int[] result = solution.twoSum(new int[]{9,3,1,2,7,3}, 6);
+        Solution solution = new Solution();
+        int[] result = solution.twoSum(new int[]{2,7,11,15}, 9);
+//        int[] result = solution.twoSum(new int[]{3,2,4}, 6);
+//        int[] result = solution.twoSum(new int[]{3,3}, 6);
 
         // Выводим результат
         System.out.println("[" + result[0] + ", " + result[1] + "]");
     }
 }
 
-class Solution2 {
+
+class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
 
         for (int i = 0; i < nums.length; i++) {
             int complement = target - nums[i];
-
             if (map.containsKey(complement)) {
                 return new int[]{map.get(complement), i};
             }
-
             map.put(nums[i], i);
+
         }
 
         return null;
     }
 }
 
-class Solution {
+class Solution1 {
     public int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length - 1; i++) {
             for (int j = i + 1; j < nums.length; j++) {
