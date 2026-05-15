@@ -21,10 +21,10 @@
 
 ## 🎯 Problem List
 
-| # | Title | Difficulty | Solution                               | Key Concepts |
-|---|-------|------------|----------------------------------------|--------------|
-| 1 | Two Sum | 🟢 Easy | [Link](p0001_TwoSum/Main.java)         | HashMap, Array |
-| 2 | Add Two Numbers | 🟡 Medium | [Link](p0002_AddTwoNumbers/Main.java) | Linked List, Math |
+| # | Title | Difficulty | Solution                                             | Key Concepts |
+|---|-------|------------|------------------------------------------------------|--------------|
+| 1 | Two Sum | 🟢 Easy | [Link](/src/main/java/p0001_TwoSum/Main.java)        | HashMap, Array |
+| 2 | Add Two Numbers | 🟡 Medium | [Link](/src/main/java/p0002_AddTwoNumbers/Main.java) | Linked List, Math |
 
 
 ## 🛠️ How to Run
